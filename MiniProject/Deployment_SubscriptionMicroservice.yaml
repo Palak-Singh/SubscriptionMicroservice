@@ -16,11 +16,11 @@ spec:
     spec:
       containers:
       - name: miniproject
-        image: subscriptioncr.azurecr.io/subfinalinstance:latest
+        image: mailorderpharmacyncr.azurecr.io/subscriptionmsimage:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: mailorderpharmacyvcsecret
+      - name: mailorderpharmacysvcsecret
 ---
 apiVersion: v1
 kind: Service
